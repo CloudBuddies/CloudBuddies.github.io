@@ -1,0 +1,4 @@
+site_name: DevOpsBuddies
+theme:
+  name: material
+  logo: logo.png
