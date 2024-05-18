@@ -1,4 +1,126 @@
 site_name: DevOpsBuddies
+site_url: https://www.devopsbuddies.in/
 theme:
   name: material
   logo: logo.png
+  favicon: logo.png
+  custom_dir: overrides
+  locale: en
+  features:
+    - announce.dismiss
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    - navigation.social
+    - toc.follow
+    - toc.integrate
+  language: en
+  markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: orange 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: orange
+
+plugins:
+  - social
+  - search
+  - blog:
+      blog_dir: courses
+      blog_toc: true
+      post_url_format: "{slug}"
+
+nav:
+  - Home: index.md
+  - Courses:
+      - AWS-DevOps: courses/AWS-DevOps.md
+      - Azure-DevOps: courses/Azure-DevOps.md
+      - AWS-Cloud: courses/AWS-Cloud.md
+      - Azure-Cloud: courses/Azure-Cloud.md
+      - GCP-Cloud: courses/GCP-Cloud.md
+  - Blog: https://blog.devopsbuddies.in # Redirect to Hashnode blog
+  - About: https://www.youtube.com/@DevOpsBuddies # Redirect to YouTube channel
+  - Contact: Contact-us.md
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/DevOpsBuddies
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/DevOpsBuddies
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@DevOpsBuddies
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/DevOpsBuddies
+    - icon: fontawesome/solid/rss
+      link: https://blog.devopsbuddies.in
+
+copyright: |
+  &copy; 2024 <a href="https://www.devopsbuddies.in" target="_blank" rel="noopener">DevOpsBuddies</a>

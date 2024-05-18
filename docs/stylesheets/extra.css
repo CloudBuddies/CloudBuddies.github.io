@@ -1,0 +1,7 @@
+/* stylesheets/extra.css */
+
+/* Hide the table of contents on the home page */
+body.home .md-sidebar--secondary {
+    display: none;
+  }
+  

@@ -34,5 +34,5 @@ For more information or to schedule a demo, please reach out to us. We're here t
 
 - **Phone**: +91-9381760268 ( WhatsApp Available)
 
-Follow us on [Instagram](https://www.instagram.com/devopsbuddies/) | [Twitter](https://twitter.com/devopsbuddies) | [YouTube](https://www.youtube.com/@DevopsBuddies) | [Blog](devopsbuddies.hashnode.dev) | [GitHub](https://github.com/DevOpsBuddies) 
+Follow us on [Instagram](https://www.instagram.com/devopsbuddies/) | [Twitter](https://twitter.com/devopsbuddies) | [YouTube](https://www.youtube.com/@DevopsBuddies) | [Blog](https://blog.devopsbuddies.in) | [GitHub](https://github.com/DevOpsBuddies) 
 
