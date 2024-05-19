@@ -1,5 +1,9 @@
+---
+title: DevOpsBuddies
+template: home.html
+---
 <div style="text-align: center;">
-<img src="DevOpsBuddies.gif" alt="DevOpsBuddies" width="850" height="300">
+<img src="DevOps.png" alt="DevOpsBuddies" width="650" height="200">
 </div>
 </br>
 

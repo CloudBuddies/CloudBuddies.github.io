@@ -1,3 +1,4 @@
+
 # AWS DevOps Course
 
 Welcome to the AWS DevOps course! In this course, we will cover various topics related to DevOps practices and tools on the AWS platform.
@@ -16,13 +17,17 @@ Welcome to the AWS DevOps course! In this course, we will cover various topics r
 
 You can access the course materials and resources from the following link:
 
-[Course Materials](https://drive.google.com/file/d/1G2lHKI85rj1o0mjsPGnrq69UY30mkdOM/view?usp=sharing)
+[Course Materials](https://drive.google.com/file/d/1GnYJRVo3jVy-W2U1ft0iaSXbIJF4ur4N/view?usp=sharing)
 
 ## Roadmap
 
 Below is the roadmap for the AWS DevOps course:
 
 ![AWS DevOps Roadmap](aws-devops-roadmap.png)
+
+</br>
+
+![AWS DevOps Roadmap](Devops-roadmap.png)
 
 This roadmap outlines the key topics and milestones you'll cover throughout the course. 
 
