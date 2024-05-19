@@ -43,18 +43,6 @@ theme:
 plugins:
   - social
   - search
-  - blog:
-      blog_dir: Home
-      blog_toc: false
-      post_url_format: "{slug}"
-  - blog:
-      blog_dir: Contact
-      blog_toc: false
-      post_url_format: "{slug}"
-  - blog:
-      blog_dir: courses
-      blog_toc: true
-      post_url_format: "{slug}"
 
 nav:
   - Home: index.md
