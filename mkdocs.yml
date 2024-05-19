@@ -2,6 +2,8 @@ site_name: DevOpsBuddies
 site_url: https://www.devopsbuddies.in/
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - stylesheets/extra.js
 theme:
   name: material
   logo: logo.png
