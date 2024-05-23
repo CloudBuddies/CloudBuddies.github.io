@@ -107,7 +107,7 @@ nav:
       - Docker-K8s: courses/DockerKubernetes.md
   - Demo: demo.md
   - Blog: https://blog.devopsbuddies.in # Redirect to Hashnode blog
-  - About: https://www.youtube.com/@DevOpsBuddies # Redirect to YouTube channel
+  - About: about.md # Redirect to YouTube channel
   - Contact: Contact-us.md
 
 extra:
